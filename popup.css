@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light dark;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 300px;
+  margin: 0;
+  color: #172033;
+  background: #f7f9fc;
+}
+
+main { padding: 20px; }
+.eyebrow { margin: 0 0 8px; color: #536784; font-size: 10px; font-weight: 700; letter-spacing: .12em; }
+h1 { margin: 0 0 8px; font-size: 20px; }
+.site { margin: 0 0 14px; color: #4d5c73; overflow-wrap: anywhere; }
+.status { min-height: 38px; margin: 0 0 14px; line-height: 1.5; }
+button { width: 100%; padding: 10px 12px; border: 0; border-radius: 8px; color: white; background: #1769e0; font: inherit; font-weight: 600; cursor: pointer; }
+button:hover:not(:disabled) { background: #0d56c4; }
+button:disabled { opacity: .55; cursor: wait; }
+.note { margin: 14px 0 0; color: #627087; font-size: 12px; line-height: 1.45; }
+
+@media (prefers-color-scheme: dark) {
+  body { color: #eef3fc; background: #202632; }
+  .eyebrow, .site, .note { color: #b3c0d4; }
+  button { background: #4a8cf0; }
+  button:hover:not(:disabled) { background: #67a0fa; }
+}

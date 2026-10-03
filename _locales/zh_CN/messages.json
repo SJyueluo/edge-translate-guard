@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Edge 翻译保护"
+  },
+  "extensionShortName": {
+    "message": "翻译保护"
+  },
+  "extensionDescription": {
+    "message": "修复 Edge 网页翻译后交互网站出现的 DOM 错误。"
+  }
+}
