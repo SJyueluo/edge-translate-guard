@@ -10,14 +10,11 @@ The extension installs a small repair layer at the page's DOM boundary. It waits
 
 Click the extension icon to pause or resume protection for the current hostname. The setting is stored in Edge locally. Pausing protection does not disable Edge's translator. The extension makes no network requests and sends no browsing data anywhere.
 
-## Install from source
+## Install
 
-1. Install Node.js 22 or newer.
-2. In this folder, run `npm ci` and `npm run build`.
-3. Open `edge://extensions` in Microsoft Edge and turn on **Developer mode**.
-4. Select **Load unpacked** and choose the generated `dist` folder. It contains a ready-to-load manifest and all bundled files.
+Install Edge Translation Guard from the [Microsoft Edge Add-ons store](https://microsoftedge.microsoft.com/addons/detail/ncjlgcifgniiifhdhmaagbpnjaeihfpo) by selecting **Get** and confirming **Add extension**. The store version installs normally; developer mode and manual file loading are not required.
 
-To remove it, select **Remove** on `edge://extensions`. To reset saved per-site choices, remove the extension's local data in Edge's extension settings.
+To remove it, open `edge://extensions` and select **Remove**. To reset saved per-site choices, remove the extension's local data in Edge's extension settings.
 
 ## Development and tests
 
